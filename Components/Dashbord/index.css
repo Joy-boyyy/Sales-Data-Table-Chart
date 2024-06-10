@@ -1,0 +1,66 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+body{margin: 0px; padding: 0px;}
+
+.mainDashBord{width: 100vw; min-height: 100vh;
+
+
+
+padding: 30px 50px;
+
+}
+
+.formDiv{display: flex; justify-content: space-between;
+
+    background-color: black;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+.inputCls{border: none; outline: none; padding-left:10px ; border-radius: 5px;}
+
+.tdImg{width: 40px; height: 40px; object-fit: cover;}
+
+.tableBorder{border: 1px solid black; border-collapse: collapse; border-radius: 10px;}
+
+.tableBorder th, .tableBorder td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  .tablesDiv{margin-top: 20px;}
+
+.paginationCl{padding: 10px; border: 1px solid black;   display: inline-block; cursor: pointer;}
+
+
+.reactBtn{border: none; background-color: transparent; cursor: pointer;}
+
+.ri{width: 30px; height: 30px; object-fit: cover; }
+
+
+.btnDiv{margin-top: 20px; display: flex; align-items: center;}
+
+.bgChange{background-color: gray; color: white;}
+
+.ri:hover{color: brown;}
+.paginationCl:hover{background-color: brown; color: white;}
+
+.errImg{width: 300px; height: 300px; object-fit: cover;}
+
+.errCl{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+
+
+
+@media (max-width:680px) {
+
+  .formDiv{flex-direction: column; width: 100vw;}
+  .inputCls{margin-bottom: 10px;}
+
+
+}
+
+@media (max-width:526px) {
+
+  .formDiv{ width: 500px;}
+
+
+}

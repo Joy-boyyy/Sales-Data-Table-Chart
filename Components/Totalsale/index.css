@@ -1,0 +1,14 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+body{margin: 0px; padding: 0px;}
+
+.mainStaticDiv{background-color: #CCCCCC; margin-top: 20px; display: flex; flex-direction: column;
+align-items: center;
+padding: 20px;
+border-radius: 10px;
+}
+
+.allDivSec{width: 40%; background-color: #FFE37A; border-radius: 10px;}
+
+.cmnDiv{display: flex; justify-content: space-between; padding: 10px; font-weight: bold;}
+
+.h1Statistics{color: white;}
