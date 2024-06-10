@@ -1,5 +1,5 @@
 # Sales-Data-Table-Chart
-this app contain data related to sales and here we can perform filtering data on the bases of selected year and month and can see data in the form of tables and charts
+This app contains content related to sales app and here we can perform filtering data on the bases of selected year and month and can see data in the form of tables and charts
 
 Note:
 In visual aap when you select any month or year related content you get from database if that data is present.
@@ -14,3 +14,5 @@ pagination:
 you can use pagination functionality with visual Content data 
 
 this app is a responsive.
+
+Note: Before judging watch full video from link. 
